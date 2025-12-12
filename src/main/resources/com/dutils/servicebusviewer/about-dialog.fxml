@@ -14,7 +14,7 @@
             <ImageView fx:id="appLogo" fitHeight="64" fitWidth="64" preserveRatio="true">
                 <Image url="@../../../icons/sbinspect.png"/>
             </ImageView>
-            <Label fx:id="appName" text="Service Bus Inspector" />
+            <Label fx:id="appName" text="Service Bus Viewer" />
             <Label fx:id="versionLabel" text="Version 1.0.0-Beta" />
             <Text fx:id="description" text="This application helps browsing through Service Bus message." textAlignment="CENTER" wrappingWidth="360" />
             <Separator prefWidth="360" />

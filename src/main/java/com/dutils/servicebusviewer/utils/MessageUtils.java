@@ -49,7 +49,7 @@ public class MessageUtils {
 
     static DeadLetterOptions deadLetterOptions = new DeadLetterOptions()
             .setDeadLetterReason("Manual move")
-            .setDeadLetterErrorDescription("Moved by Service Bus Inspector");
+            .setDeadLetterErrorDescription("Moved by Service Bus Viewer");
 
 
     public static List<ServiceBusReceivedMessage> moveMessagesAsyncToQueue(

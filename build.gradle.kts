@@ -6,7 +6,7 @@ plugins {
     id("org.beryx.jlink") version "3.1.3"
 }
 
-group = "com.dutils.servicebusinspector"
+group = "com.dutils.servicebusviewer"
 version = "1.0-SNAPSHOT"
 
 repositories {
