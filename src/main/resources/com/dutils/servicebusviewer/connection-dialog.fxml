@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane fx:id="dialogPane" prefWidth="500" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.dutils.servicebusviewer.ConnectionDialogController">
+
+    <content>
+        <GridPane hgap="5" vgap="5">
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints hgrow="ALWAYS" />
+            </columnConstraints>
+            <Label alignment="TOP_LEFT" text="Connection String" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="txtConn" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+            <FlowPane alignment="CENTER" hgap="70.0" prefHeight="50.0" prefWidth="500.0" prefWrapLength="0.0" rowValignment="TOP" vgap="5.0" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="2">
+                <Button fx:id="btnAdd" lineSpacing="1.0" mnemonicParsing="false" text="Add" />
+                <Button fx:id="btnRemove" mnemonicParsing="false" text="Remove" />
+                <Button fx:id="btnSave" mnemonicParsing="false" text="Save" />
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets>
+
+            </FlowPane>
+            <TableView fx:id="dlgTableView" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="3">
+                <columns>
+                    <TableColumn prefWidth="150.0" text="Name Space" />
+                    <TableColumn prefWidth="330.0" text="Connection String" />
+                </columns>
+            </TableView>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+
+    </content>
+
+
+    <ButtonType fx:id="btnConnect" buttonData="OK_DONE" text="Connect" />
+    <ButtonType fx:id="btnTest" buttonData="APPLY" text="Test Connection" />
+    <ButtonType buttonData="CANCEL_CLOSE" text="Cancel" />
+
+</DialogPane>

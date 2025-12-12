@@ -1,0 +1,69 @@
+.json-brace {
+    -fx-fill: #D73A49;
+    -fx-font-weight: bold;
+}
+
+.json-bracket {
+    -fx-fill: #6F42C1;
+    -fx-font-weight: bold;
+}
+.json-property {
+    -fx-fill: #0c11dc;
+    -fx-font-weight: bold;
+}
+.json-string {
+    -fx-fill: #650370;
+    -fx-font-weight: 600;
+}
+.json-number {
+    -fx-fill: #165506;
+    -fx-font-weight: 600;
+}
+.json-bool {
+    -fx-fill: #165506;
+    -fx-font-style: italic;
+}
+
+.json-null {
+    -fx-fill: #6A737D;
+}
+.json-seperator {
+    -fx-fill: black;
+    -fx-font-weight: normal;
+}
+
+.xml-tagmark {
+    -fx-fill: gray;
+}
+
+.xml-anytag {
+    -fx-fill: crimson;
+    -fx-font-weight: bold;
+}
+
+.xml-paren {
+    -fx-fill: firebrick;
+    -fx-font-weight: bold;
+}
+
+.xml-attribute {
+    -fx-fill: darkviolet;
+    -fx-font-weight: bold;
+}
+
+.xml-avalue {
+    -fx-fill: black;
+}
+
+.xml-comment {
+    -fx-fill: teal;
+}
+
+.code-area, .styled-text-area {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.virtualized-scroll-pane {
+    -fx-background-color: white;
+}

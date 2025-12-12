@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<DialogPane prefHeight="250" prefWidth="400"  xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" >
+    <content>
+        <VBox alignment="CENTER" spacing="12">
+            <padding>
+                <Insets bottom="20" left="20" right="20" top="20" />
+            </padding>
+            <ImageView fx:id="appLogo" fitHeight="64" fitWidth="64" preserveRatio="true">
+                <Image url="@../../../icons/sbinspect.png"/>
+            </ImageView>
+            <Label fx:id="appName" text="Service Bus Inspector" />
+            <Label fx:id="versionLabel" text="Version 1.0.0-Beta" />
+            <Text fx:id="description" text="This application helps browsing through Service Bus message." textAlignment="CENTER" wrappingWidth="360" />
+            <Separator prefWidth="360" />
+            <Hyperlink fx:id="websiteLink" text="Visit Project Website" />
+        </VBox>
+    </content>
+    <buttonTypes>
+        <ButtonType fx:constant="CLOSE" />
+    </buttonTypes>
+</DialogPane>
+

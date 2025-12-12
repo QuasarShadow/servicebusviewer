@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane prefHeight="180" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.dutils.servicebusviewer.StatusDialogController">
+    <content>
+        <VBox>
+            <Label text="Select Status:" />
+            <ComboBox fx:id="cmbStatus" prefWidth="200" promptText="Status " />
+            <padding>
+                <Insets left="50.0" top="20.0" />
+            </padding>
+        </VBox>
+    </content>
+
+    <ButtonType fx:constant="OK" />
+    <ButtonType fx:constant="CANCEL" />
+</DialogPane>

@@ -1,0 +1,72 @@
+.json-brace {
+    -fx-fill: #FF7B72;
+    -fx-font-weight: bold;
+}
+
+.json-bracket {
+    -fx-fill: #C792EA;
+    -fx-font-weight: bold;
+}
+
+.json-property {
+    -fx-fill: #82AAFF;
+    -fx-font-weight: bold;
+}
+
+.json-string {
+    -fx-fill: #C3E88D;
+}
+
+.json-number {
+    -fx-fill: #FFCB6B;
+    -fx-font-style: italic;
+}
+
+.json-bool {
+    -fx-fill: #FF5370;
+    -fx-font-style: italic;
+}
+
+.json-null {
+    -fx-fill: #89DDFF;
+}
+
+.json-seperator {
+    -fx-fill: #FFFFFF;
+    -fx-font-weight: normal;
+}
+
+.xml-tagmark {
+    -fx-fill: #B0B0B0;
+}
+
+.xml-anytag {
+    -fx-fill: #FF5370;
+    -fx-font-weight: bold;
+}
+
+.xml-paren {
+    -fx-fill: #FF869A;
+    -fx-font-weight: bold;
+}
+
+.xml-attribute {
+    -fx-fill: #C792EA;
+    -fx-font-weight: bold;
+}
+
+.xml-avalue {
+    -fx-fill: #FFFFFF;
+}
+
+.xml-comment {
+    -fx-fill: #89DDFF;
+}
+.code-area, .styled-text-area {
+    -fx-background-color: #1e1e1e;
+    -fx-text-fill: #dcdcdc;
+}
+
+.virtualized-scroll-pane {
+    -fx-background-color: #1e1e1e;
+}
